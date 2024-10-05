@@ -5,7 +5,11 @@ body {
 
 h1 {
     margin-top: 20px;
+   
+    padding: 10px;
+    display: inline-block;
 }
+
 footer {
     margin-top: 20px;
     color: #777;

@@ -4,8 +4,8 @@ function calcularTabuada() {
     let tabuada = '';
 
     for (let i=1; i<=10; i++) {
-        tabuada += `${numero} x ${i} = ${numero * i}` + <br>;
-        result.innerHTML = tabuada;
-        }
+        tabuada += `${number} x ${i} = ${number * i}` + "<br>";
     }
     
+    result.innerHTML = tabuada;
+}
