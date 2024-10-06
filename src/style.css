@@ -1,16 +1,96 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    background-color: #f2f2f2;
+    background-image: url("./asset/bb2.jpg");
+    background-weight: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #EFE6E7;                                                                      
 }
 
 h1 {
+    font-size: 60px;
     margin-top: 20px;
-   
     padding: 10px;
     display: inline-block;
+    color: #EFE6E7;
+    text-shadow: black 0.1px 0 5px;
+}
+
+
+input {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    border: black solid transparent;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-shadow: black;
+    cursor: pointer;
+    background-color: #474C50;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.input-column, .output-column {
+    flex: 1; 
+    margin: 10px; 
+    max-width: 300px; 
+}
+
+.out.output-column {
+    text-shadow: black 1px 1px 5px;
+}
+
+div {
+    font-size: 25px;
+}
+
+.label {
+    text-shadow: black 1px 1px 5px;
+}
+
+button {
+    color: #EFE6E7;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+
+button:hover {
+    background-color: rgb(61, 175, 61);
+}
+div.result {
+    margin-top: 20px;
+    margin-left: auto;
+    text-align: end;
 }
 
 footer {
-    margin-top: 20px;
-    color: #777;
+    margin-top: 80px;
+    color: whitesmoke;
+    text-shadow: grey  0.3px 0 5px;
+}
+
+footer a {
+    color: rgb(4, 0, 255);
+    text-decoration: underline;
+    
+
 }
