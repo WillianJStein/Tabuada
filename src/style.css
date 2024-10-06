@@ -89,7 +89,7 @@ footer {
 
 footer a {
     color: rgb(4, 0, 255);
-    text-decoration: dotted;
+    text-decoration: underline;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
