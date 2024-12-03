@@ -15,3 +15,8 @@ function calcularTabuada() {
     resultElement.appendChild(element);
   }
 }
+
+function handleSubmit(event) {
+  event.preventDefault();
+  calcularTabuada();
+}

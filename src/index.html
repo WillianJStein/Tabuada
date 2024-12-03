@@ -15,12 +15,13 @@
     <header>
       <h1>Calculadora de Tabuada</h1>
     </header>
-    <main class="container">
-      <label class="label" for="number">Número</label>
-      <input type="number" id="number" placeholder="Digite um número" />
-      <button onclick="calcularTabuada()" id="btn">Calcular</button>
-
-      <div id="result"></div>
+    <main>
+      <form class="container" onsubmit="handleSubmit(event)">
+        <label class="label" for="number">Número</label>
+        <input type="number" id="number" placeholder="Digite um número" />
+        <button id="btn">Calcular</button>
+        <div id="result"></div>
+      </form>
     </main>
     <footer>
       Created by
